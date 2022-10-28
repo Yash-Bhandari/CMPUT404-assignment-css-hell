@@ -1,0 +1,63 @@
+* {
+  /* margin: 0; */
+}
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Garamond";
+  /* font-family: "Georgia"; */
+  line-height: 1.5;
+  padding: 4em 1em;
+  /* this background color looks like old yellow paper*/
+  background-color: #f8f0e0;
+  color: #545;
+}
+
+h1,
+h2 {
+  color: #300;
+}
+
+/* wrapper div for images */
+.fig {
+  margin: 0 auto;
+}
+
+/* caption */
+.fig + h5 {
+  margin: 0 auto 2em;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+#pg-header {
+  border-bottom: 4px solid #300;
+  border-top: 4px solid #300;
+  padding: 2em 0;
+}
+
+#pg-header {
+  font-family: "Helvetica";
+}
+
+hr {
+  display: none;
+}

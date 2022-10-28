@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+section {
+  margin: 0 auto;
+  /* padding: 0; */
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 1em 1em;
+  /* this background color looks like old yellow paper*/
+  background-color: #fff;
+  color: #545;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+li,
+p {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 50%;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+}
+
+.header {
+  background-color: #1478b3;
+  text-align: center;
+  padding: 80px;
+}
+
+section {
+  margin-top: 10px;
+}
+
+.about-me {
+  display: flex;
+}
